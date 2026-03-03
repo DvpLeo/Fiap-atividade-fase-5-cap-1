@@ -1,3 +1,5 @@
+FIAP - Faculdade de Informática e Administração Paulista
+Nome do projeto: Cap 1 - FarmTech na Era da Cloud Computing
 🌾 Análise de Produtividade Agrícola e Modelagem de Dados com AWS
 📌 Descrição do Projeto
 
