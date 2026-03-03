@@ -1,0 +1,22 @@
+AWS Cost Comparison (On-Demand, Linux)
+Instance: t3.micro (2 vCPU, 1 GiB RAM, Up to 5 Gbps)
+Storage: 50 GB EBS (gp3)
+
+Region: US East (N. Virginia) - us-east-1
+- EC2 t3.micro: $0.0104 / hour
+- EBS gp3: $0.08 / GB-month
+- Monthly EC2 (730h): $7.592
+- Monthly EBS (50GB): $4.00
+- Total Monthly: $11.592
+
+Region: South America (Sao Paulo) - sa-east-1
+- EC2 t3.micro: $0.0146 / hour (Estimated ~40% higher than us-east-1 based on typical AWS regional pricing)
+- EBS gp3: $0.114 / GB-month (Estimated ~40% higher than us-east-1)
+- Monthly EC2 (730h): $10.658
+- Monthly EBS (50GB): $5.70
+- Total Monthly: $16.358
+
+Note: Sao Paulo is generally 30-50% more expensive than N. Virginia due to local taxes and infrastructure costs.
+Data Transfer Out (first 100GB free, then):
+- us-east-1: $0.09 / GB
+- sa-east-1: $0.15 / GB
